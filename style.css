@@ -1,0 +1,183 @@
+* {
+    margin: auto;
+    padding: 0%;
+    text-decoration: none;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: rgb(210, 208, 208);
+}
+
+a:hover {
+    color: white;
+    transition: 0.2s;
+    text-align: center;
+}
+
+.logo {
+    display: none;
+    background-image: url(media/R\ \(1\).png);
+    height: 25px;
+    width: 30px;
+    background-size: cover;
+    align-items: center;
+    margin-right: 500px;
+    margin-bottom: 8px;
+}
+
+.logo2 {
+    display: none;
+}
+
+.menu-hamburger {
+    display: none;
+    height: 50px;
+    width: 50px;
+}
+
+.test {
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 12.5px;
+    height: 35px;
+    background-color:rgb(62, 62, 62);
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    padding: 0px 10px;
+    text-align: center;
+    transform: all 0.3s ease;
+    
+}
+
+.iconepanier {
+    display: none;
+}
+
+.test.mobile-menu {
+    margin-left: 0%;
+}
+
+@media all and (min-width:1500px) {
+   .navbar .menu-hamburger {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width:900px){
+    
+    
+    
+    .navbar {
+        
+        background-color: gray;
+    }
+    
+
+    
+    .navbar .menu-hamburger {
+        display: block;
+        width: 35px;
+        position: absolute;
+       margin-right: 0px;
+       
+       
+    
+    }
+
+    .logo2 {
+        height: 55px;
+        display: block;
+        width: 70px;
+        margin-left: 230px;
+        padding-bottom: 10px;
+    }
+    .test {
+        top: 0%;
+        left: 0%;
+    position: absolute;
+    flex-direction: column;
+    background-color: black;
+    backdrop-filter: blur(3.5px);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: -120%;
+    background-color: black;
+    transition: all 0.5s;
+
+        
+    }
+    
+}
+
+@media screen and (max-width:900px){
+    
+    
+ .navbar {
+    color: lightgrey;
+    height: 40px;
+    width: 100%;
+ }
+ .test li a {
+    text-align: left;
+    padding-right: 500px;
+}
+
+
+
+.test {
+    top: 0%;
+    left: 0%;
+position: absolute;
+background-color: black;
+height: 100vh;
+display: flex;
+justify-content: space-between;
+margin-top: 40px;
+margin-left: -180%;
+background-color: black;
+transform: all 0.3s ease;
+text-align: center;
+padding-left: 250px;
+padding-top: 10px;
+transition: all 0.5s ;
+
+
+
+
+    
+}
+.test li a {
+text-align: left;
+}
+
+
+
+
+
+.navbar .menu-hamburger {
+    display: flex;
+    width: 35px;
+    position: absolute;
+    margin-left: 10px;
+   top:-5px;
+
+}
+
+.logo2 {
+    text-align: center;
+}
+
+   
+   
+}
+
